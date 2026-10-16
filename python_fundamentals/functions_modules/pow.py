@@ -2,7 +2,8 @@
 
 def pow(a, b):
     contador = 0
+    resultado = 0
     while contador < b:
-        a *= a
+        resultado *= a
         contador += 1
     return a
