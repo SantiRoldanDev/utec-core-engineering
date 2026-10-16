@@ -6,4 +6,4 @@ def pow(a, b):
     while contador < b:
         resultado *= a
         contador += 1
-    return a
+    return resultado
