@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 def add_tuple(tuple_a=(), tuple_b=()):
-    return tuple(a + b for a, b in zip(tuple_a, tuple_b))
+    a = tuple_a + (0, 0)
+    b = tuple_b + (0, 0)
+    return (a[0] + b[0], a[1] + b[1])
 
 
 if __name__ == "__main__":
